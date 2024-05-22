@@ -1,0 +1,149 @@
+/*Formu*/
+/*TITULOS DE H1 Y H2*/
+.main {
+    text-align: center;
+    font-size: 50%;
+    background-color: greenyellow;
+}
+
+.section {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
+label {
+    color: rgb(174, 214, 114);
+    background-color: black;
+    font-size: 20px;
+}
+
+form  {
+    text-align: center;
+}
+
+form, h3, h1 {
+    text-align: center;
+    padding: 45px;
+    background-color: gray;
+    background-image: url(/Comision24179-FSP-4/Episteme/public/img/icons/progra.jpg);
+    opacity: var(rgb(31, 29, 29));
+    border-radius: 2px gray;
+}
+
+.h1 {
+    background-color: gray;
+}
+
+form h2{
+    text-align: right;
+    border: 1px solid rgb(37, 59, 5);
+    padding: 25px 10px 10px 25px;
+    width: 50px;
+    height: 70px;
+}
+
+img {
+    box-shadow: 30px 15px 20px 30px;
+    align-items: center;
+}
+
+/*FORMULARIO CON LA UL Y LAS LI*/
+
+form, ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 0px;
+    gap: 18px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+li {
+    font-size: 25px;
+    background-color: gray;
+}
+
+form,  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    /*gap: 2px;*/
+    color: yellowgreen;
+}
+
+/*CLASS INPUT*/
+
+input {
+    width: 200px;
+    background-color: rgb(199, 189, 189);
+    justify-content: end;
+}
+/*CLASS CHECKBOX*/
+.checkbox {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/*MENSAJE DEL TEXTAREA*/
+textarea{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(99, 119, 68);
+}
+
+.textarea a {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+}
+
+/*FIELDSET Y EL SPAN*/
+
+fieldset {
+    border: 20px solid black;
+    color: rgb(98, 131, 53);
+    text-shadow: 20px 10px 10px 20px black;
+    border-color: black;
+    background-color: rgb(211, 203, 203);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 280%;
+    width: 70%;
+    box-shadow: 20px 10px 20px 30px black;
+}
+
+.fieldset .h1{
+     background-color: gray;
+}
+
+h4 {
+    background-color: black;
+    box-shadow: 15px 10px 15px rgb(98, 131, 53);
+}
+
+span{
+    color: rgb(195, 204, 184);
+    font-size: 3px;
+}
+
+footer {
+    font-size: 20px; 
+    height: 30px;
+    align-items: center;
+    background-color: gray;
+}
+
+a {
+    color: white;
+    background-color: black;
+}

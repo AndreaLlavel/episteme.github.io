@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Contacto</title>
+        <link rel="stylesheet" href="/Episteme/public/css/index.css">
+        <link rel="stylesheet" href="/Episteme/public/css/formreg.css">
+        <script src="/Episteme/public/js/formct.js"></script>
+    </head>
+
+    <body class="body">
+        <header class="page-header"><!--Inicio Header-->
+            <nav class="navbar">
+                <picture class="navbar__logo">
+                    <img src="/Episteme/public/img/icons/epis1.gif" width="35px" height="60px">
+                </picture>
+                <ul class="navbar__menu">
+                    <li class="navbar__item with-submenu">
+                        <a class="navbar__link with-icon" href="/Episteme/public/shop.html">INFO<iconify-icon
+                                icon="tabler:chevron-down"></iconify-icon></a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Cursos</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Videos</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">PDF</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="navbar__link" href="/Episteme/public/shop/contact.html">CONTACTO</a>
+                    </li>
+                    <li>
+                        <a class="navbar__link" href="/Episteme/public/shop/login.html">ACCESO</a>
+                    </li>
+                    <li>
+                        <a class="navbar__link" href="/Episteme/public/shop/formularioderegistro.html">REGISTRARSE</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__cart" href="/Episteme/public/pages/shop.html">
+                            <img src="/Episteme/public/img/icons/cart-icon.svg" alt="icono de carrito"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header><!--Fin Header-->
+
+       <main>
+        <h1 style="text-align: center;">Formulario de contacto</h1>
+        <div style="display: flex; justify-content: center; background-image: url('../../img/icons/FormularioEpisteme.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+                
+                <form name="formularioContacto" onsubmit="return validarFormulario()" method="post">
+                    Nombre: <input type="text" name="nombre"><br>
+                    Email: <input type="text" name="email"><br>
+                    Teléfono: <input type="text" name="telefono"><br>
+                    Curso: <textarea name="curso"></textarea><br>
+                    Mensaje: <textarea name="mensaje"></textarea><br>
+                    Seleccione su país: 
+                    <select name="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="Uruguay">Uruguay</option>
+                    </select><br>
+                    Acepto los términos y condiciones: <input type="checkbox" name="terminos"><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+           
+        </div>
+    </main>
+  
+
+    <footer class="footer">
+        <nav class="navbar container" >
+            <ul class="navbar__item">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Episteme/public/shop.html">SHOP</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Episteme/public/shop/formularioderegistro.html">REGISTRARSE</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Episteme/public/shop/login.html">ACCESO</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Episteme/public/shop/contact.html">CONTACTO</a>
+                </li>
+            </ul>
+            <picture>
+                <img src="/Episteme/public/img/icons/manzanaverde.jpg" width="35px" height="60px" alt="Logo de Episteme">
+            </picture>
+        </nav>
+        <p class="footer__copy">All rights reserved 2023 - EPISTEME &copy;</p>
+   
+        <a href="/Episteme/public/index.html">Volver</a>
+    </footer>
+</body>
+    </html>
+
+

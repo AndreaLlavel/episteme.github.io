@@ -1,0 +1,33 @@
+header {
+    background-image: url(/Comision24179-FSP-4/Episteme/public/img/icons/group.jpg);
+}
+
+form {
+    background-color: gray;
+    font-size: 55px;
+}
+
+footer {
+    background-color: rgb(91, 102, 73);
+    color: black;
+}
+
+img {
+    font-size: 25px;
+    width: 480px;
+}
+
+nav , h1, h3 {
+    background-color: rgb(158, 189, 112);
+    box-shadow: 10px 13px 10px 13px black;
+}
+
+p {
+    background-color: rgb(109, 92, 92);
+    color: white;
+}
+
+a {
+    color:black;
+    background-color: rgb(114, 145, 67);
+}

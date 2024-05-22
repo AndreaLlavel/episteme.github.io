@@ -1,0 +1,80 @@
+/* Colores */
+:root {
+    --verde-manzana: rgb(191, 214, 145);
+    --gris: #7F8C8D;
+    --marronado: rgb(96, 128, 44);
+}
+
+
+.form-background {
+    background-color: rgba(144, 238, 144, 0.5); 
+}
+main {
+    margin-top: 20px; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--gris);
+    color: var(--marronado);
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.page-header, .footer {
+    position: relative;
+}
+
+/* Formulario */
+form {
+    background-color: var(--verde-manzana);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--marronado);
+}
+
+form input[type="submit"] {
+    background-color: var(--marronado);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: var(--verde-manzana);
+}
+
+/* Navegación */
+nav {
+    background-color: var(--marronado);
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Pie de página*/ 
+.footer {
+    background-color: var(--verde-manzana);
+    color: var(--marronado);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form img {
+    width: 900px;
+}
